@@ -1,0 +1,9 @@
+Remaining jobs: [wallet_basic.py]
+
+TEST            | STATUS    | DURATION
+
+wallet_basic.py | ✓ Passed  | 20 s
+
+ALL             | ✓ Passed  | 20 s (accumulated) 
+Runtime: 20 s
+
