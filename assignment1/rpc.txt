@@ -1,0 +1,119 @@
+1. getblockchaininfo:
+{
+  "chain": "regtest",
+  "blocks": 0,
+  "headers": 0,
+  "bestblockhash": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+  "bits": "207fffff",
+  "target": "7fffff0000000000000000000000000000000000000000000000000000000000",
+  "difficulty": 4.656542373906925e-10,
+  "time": 1296688602,
+  "mediantime": 1296688602,
+  "verificationprogress": 2.155787482263043e-06,
+  "initialblockdownload": true,
+  "chainwork": "0000000000000000000000000000000000000000000000000000000000000002",
+  "size_on_disk": 293,
+  "pruned": false,
+  "warnings": [
+  ]
+}
+
+2. getnetworkinfo:
+{
+  "version": 300000,
+  "subversion": "/Satoshi:30.0.0/",
+  "protocolversion": 70016,
+  "localservices": "0000000000000c09",
+  "localservicesnames": [
+    "NETWORK",
+    "WITNESS",
+    "NETWORK_LIMITED",
+    "P2P_V2"
+  ],
+  "localrelay": true,
+  "timeoffset": 0,
+  "networkactive": true,
+  "connections": 0,
+  "connections_in": 0,
+  "connections_out": 0,
+  "networks": [
+    {
+      "name": "ipv4",
+      "limited": false,
+      "reachable": true,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    },
+    {
+      "name": "ipv6",
+      "limited": false,
+      "reachable": true,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    },
+    {
+      "name": "onion",
+      "limited": true,
+      "reachable": false,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    },
+    {
+      "name": "i2p",
+      "limited": true,
+      "reachable": false,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    },
+    {
+      "name": "cjdns",
+      "limited": true,
+      "reachable": false,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    }
+  ],
+  "relayfee": 0.00000100,
+  "incrementalfee": 0.00000100,
+  "localaddresses": [
+  ],
+  "warnings": [
+  ]
+}
+
+3. getwalletinfo:
+{
+  "walletname": "mywallet",
+  "walletversion": 169900,
+  "format": "sqlite",
+  "txcount": 0,
+  "keypoolsize": 4000,
+  "keypoolsize_hd_internal": 4000,
+  "paytxfee": 0.00000000,
+  "private_keys_enabled": true,
+  "avoid_reuse": false,
+  "scanning": false,
+  "descriptors": true,
+  "external_signer": false,
+  "blank": false,
+  "birthtime": 1760555187,
+  "flags": [
+    "last_hardened_xpub_cached",
+    "descriptor_wallet"
+  ],
+  "lastprocessedblock": {
+    "hash": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+    "height": 0
+  }
+}
+
+4. getnewaddress:
+bcrt1qvcty2vhzkzv266qpek3y0yhmer00eeqhmk4p5r
+
+5. generatetoaddress:
+[
+  "7ac12d9e52bdf36cb7b0a9f8e6ae51ac9fa2ce75f029905bf335e667e4197106",
+  "515300683fcbfb1521928a2e5e2c4123b86a4b39847fdf5d2aad00f1f5922dcc",
+  "7688754c14ff6e3fa5e39189e9f4332227c452663fce6252d133f29a2c3824ee"
+]
+
